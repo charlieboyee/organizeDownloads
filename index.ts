@@ -5,7 +5,6 @@ const mv = require('mv')
 const main = async () => {
     console.time('main');
     const downloadsDirectory: string = path.join(process.cwd(), '../../Downloads');
-
     try {
         const files: string[] = await fs.readdir(downloadsDirectory);
         const folders: string[] = [];
@@ -38,7 +37,6 @@ const main = async () => {
                 await mv(start, destination, { mkdirp: true })
             }
         };
-
     } catch (err) {
         console.log(err)
     } finally{
