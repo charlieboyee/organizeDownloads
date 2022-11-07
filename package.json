@@ -1,0 +1,14 @@
+{
+  "name": "organizedownloads",
+  "version": "1.0.0",
+  "description": "Organize files by extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Park",
+  "license": "ISC",
+  "dependencies": {
+    "mv": "^2.1.1"
+  }
+}
